@@ -1,1 +1,21 @@
 /*  your css code here. If applicable */
+body{
+	background-color:lightgray;
+}
+.container{
+	display:flex;
+	justify-content:space-between;
+	align-item:center;
+	
+}
+.blog{
+	text-align:center;
+	font-size:10px;
+	height:100px;
+	width:90px;
+	background-color:white;
+}
+li{
+	list-style-type:none;
+}
+
