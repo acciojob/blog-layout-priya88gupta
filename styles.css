@@ -3,6 +3,7 @@ body{
 	background-color:lightgray;
 }
 .container{
+	flex-wrap:wrap;
 	display:flex;
 	justify-content:space-between;
 	align-item:center;
