@@ -5,18 +5,18 @@ body{
 .container{
 	flex-wrap:wrap;
 	display:flex;
-	justify-content:space-between;
+	justify-content:space-around;
 	align-item:center;
 	
 }
 .blog{
+	margin:10px;
 	text-align:center;
 	font-size:10px;
-	height:100px;
-	width:90px;
+	height:120px;
+	width:130px;
 	background-color:white;
 }
 li{
 	list-style-type:none;
 }
-
