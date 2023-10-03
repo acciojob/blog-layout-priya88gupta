@@ -1,23 +1,33 @@
-/*  your css code here. If applicable */
-body{
-	background-color:lightgray;
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
 }
-.container{
-	grid-template-columns:repeat(4, 100px);
-	margin:10px;
-	display:grid;
-	justify-content:space-around;
-	align-item:center;
-	
+
+/* Style for the blog layout */
+.blog-layout {
+    display: flex;
+    justify-content: space-between;
 }
-.blog{
-	margin:10px;
-	text-align:center;
-	font-size:10px;
-	height:120px;
-	width:130px;
-	background-color:white;
+
+/* Style for each column */
+.blog {
+    flex: 1;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
 }
-li{
-	list-style-type:none;
+
+/* Style for article lists */
+.blog ul {
+    list-style-type: none;
+    padding: 0;
 }
+
+/* Style for article list items */
+.blog ul li {
+    margin-bottom: 10px;
+}
+
+/* Add more CSS styles as needed */
